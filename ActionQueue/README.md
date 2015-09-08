@@ -1,4 +1,9 @@
 
+### Get git build number
+```cmd
+git rev-list --count HEAD
+```
+
 ### Pack nuget package
 ```cmd
 nuget pack ActionQueue.csproj -Prop Configuration=Release
