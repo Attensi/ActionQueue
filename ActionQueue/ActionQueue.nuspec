@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>0.1.0</version>
+    <title>$title$</title>
+    <authors>Attensi</authors>
+    <owners>Attensi</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://attensi.com</projectUrl>
+    <iconUrl>https://attensi.atlassian.net/wiki/download/attachments/491521/atl.site.logo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library to queue actions on backgound threads</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Action Queue ActionQueue Threading</tags>
+  </metadata>
+</package>
