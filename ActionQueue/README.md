@@ -1,15 +1,16 @@
 
 ### Get git build number
-```cmd
+```bash
 git rev-list --count HEAD
 ```
 
 ### Pack nuget package
-```cmd
+```bash
 nuget pack ActionQueue.csproj -Prop Configuration=Release
 ```
 
 ### Push nuget package
-```cmd
+```bash
 nuget push ActionQueue.nupkg
 ```
+
