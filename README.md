@@ -1,19 +1,4 @@
 
-### Get git build number
-```bash
-git rev-list --count HEAD
-```
-
-### Pack nuget package
-```bash
-nuget pack ActionQueue.csproj -Prop Configuration=Release
-```
-
-### Push nuget package
-```bash
-nuget push ActionQueue.nupkg
-```
-
 ### Usage
 ```cs
 ActionQueue queue = new ActionQueue();
