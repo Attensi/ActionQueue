@@ -14,3 +14,10 @@ nuget pack ActionQueue.csproj -Prop Configuration=Release
 nuget push ActionQueue.nupkg
 ```
 
+### Usage
+```c#
+ActionQueue queue = new ActionQueue();
+queue.addAction(() => {
+  // Code to run
+});
+```
